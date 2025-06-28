@@ -1,0 +1,40 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+window#waybar {
+    background: rgba(30, 30, 46, 0.9);  /* Fundo translúcido */
+    border-radius: 10px;                /* Bordas arredondadas */
+    border: 2px solid #89b4fa;          /* Cor da borda igual ao Hyprland */
+    margin: 10px 10px;                  /* Espaço entre a borda da tela e a barra */
+    padding: 5px;
+}
+
+#workspaces {
+    padding: 5px 5px;
+    margin: 0 5px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+#workspaces button.active {
+    background-color: #89b4fa;
+    color: #1e1e2e;
+}
+
+#network, #pulseaudio, #cpu, #memory, #clock {
+    padding: 5px 10px;
+    border-radius: 6px;
+    background-color: rgba(50, 50, 70, 0.6);
+    margin: 5px 5px;
+    margin-left: 8px; /* espaço a esquerda */
+    margin-right: 8px; /* espaco a direita */
+}
+
+#pulseaudio.muted {
+    color: #f38ba8;
+}
+
